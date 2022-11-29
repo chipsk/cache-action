@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f14b6339-7e22-4465-b281-fb732546d483" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f14b6339-7e22-4465-b281-fb732546d483" name="Changes" comment="init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +18,9 @@
     </option>
   </component>
   <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -45,7 +46,7 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/sk&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Test.TestA in cloudwego/code-action/common/cache">
+  <component name="RunManager" selected="Go Test.TestGetCache in cloudwego/cache-action/common/cache">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="cache-action" />
       <working_directory value="$PROJECT_DIR$" />
@@ -53,15 +54,6 @@
       <package value="cloudwego/code-action" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build cloudwego/code-action" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="cache-action" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="cloudwego/code-action" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="TestA in cloudwego/code-action/common/cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -88,6 +80,18 @@
       <pattern value="^\QTestAaa\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestGetCache in cloudwego/cache-action/common/cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="cache-action" />
+      <working_directory value="$PROJECT_DIR$/common/cache" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="cloudwego/cache-action/common/cache" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestGetCache\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestGetCache in cloudwego/code-action/common/cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="cache-action" />
       <working_directory value="$PROJECT_DIR$/common/cache" />
@@ -100,12 +104,12 @@
       <pattern value="^\QTestGetCache\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSetCache in cloudwego/code-action/common/cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSetCache in cloudwego/cache-action/common/cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="cache-action" />
       <working_directory value="$PROJECT_DIR$/common/cache" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="cloudwego/code-action/common/cache" />
+      <package value="cloudwego/cache-action/common/cache" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -124,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestGetCache in cloudwego/cache-action/common/cache" />
+        <item itemvalue="Go Test.TestSetCache in cloudwego/cache-action/common/cache" />
         <item itemvalue="Go Test.TestGetCache in cloudwego/code-action/common/cache" />
         <item itemvalue="Go Test.TestA in cloudwego/code-action/common/cache" />
         <item itemvalue="Go Test.TestAaa in cloudwego/code-action/common/cache" />
-        <item itemvalue="Go Test.TestSetCache in cloudwego/code-action/common/cache" />
-        <item itemvalue="Go Build.go build cloudwego/code-action" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +150,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
